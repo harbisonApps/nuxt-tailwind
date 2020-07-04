@@ -23,7 +23,7 @@
     </div>
     <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert" />
     <div data-element="fields" data-stacked="false" class="seva-fields mx-auto formkit-fields mt-2">
-      <div class="formkit-field text-center">
+      <div class="formkit-field text-center px-2">
         <!-- <label for="email_address" class="text-gray-300">
             email
           </label> -->
@@ -36,10 +36,10 @@
           title="Your email address"
         >
       </div>
-      <div class=" text-center">
+      <div class="w-full text-center">
         <button
           data-element="submit"
-          class="mt-2 formkit-submit button--green py-2 px-4 text-gray-100 text-lg rounded w-11/12 my-2"
+          class="mt-2 formkit-submit button--green text-gray-100 text-lg w-11/12 rounded my-2"
         >
           <div class="formkit-spinner">
             <div /><div /><div />
