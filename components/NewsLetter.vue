@@ -16,7 +16,7 @@
         <h1>Join My Newsletter</h1>
       </div> -->
     <div
-      class="formkit-subheader text-2xl text-center mt-2 text-gray-300"
+      class="formkit-subheader text-2xl px-2 text-center mt-2 text-gray-300"
       data-element="subheader"
     >
       <p>Subscribe and get updated via email</p>
@@ -36,10 +36,10 @@
           title="Your email address"
         >
       </div>
-      <div class="w-full text-center">
+      <div class="w-full text-center px-2">
         <button
           data-element="submit"
-          class="mt-2 formkit-submit button--green text-gray-100 text-lg w-11/12 rounded my-2"
+          class="mt-2 formkit-submit button--green text-gray-100 text-lg w-full rounded my-2"
         >
           <div class="formkit-spinner">
             <div /><div /><div />
