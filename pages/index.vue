@@ -61,64 +61,6 @@
         <em><small>&mdash; Brian Leabold</small></em>
       </div>
     </div>
-    <!-- <div class="mt-4 lg:w-full lg:px-12 w-11/12 mx-auto flex flex-wrap justify-center">
-      <div class="grid gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-        <div class="w-full border-gray-300 bg-gray-800 border rounded mt-4 px-1 pb-1">
-          <h3 class="text-center mt-1 text-gray-300 text-2xl">
-            Landing Page
-          </h3>
-          <img loading="lazy" src="~/assets/landing-screen-shot-sm.webp" alt="">
-          <ul class="text-center text-lg mx-auto my-3 text-gray-300 list-none">
-            <li>Customized just for you</li>
-            <li>Clear & Targeted presentation</li>
-            <li>Starting at $175</li>
-          </ul>
-          <button
-            @click="toggleModal = !toggleModal"
-            class="button--accent rounded text-lg text-center py-2 w-full"
-          >
-            Schedule free consultation
-          </button>
-        </div>
-        <div class="w-full border-gray-300 bg-gray-300 border rounded mt-4 px-1 pb-1">
-          <h3 class="text-center mt-1 text-gray-900 text-2xl">
-            Starter Website
-          </h3>
-          <img loading="lazy" src="~/assets/space-screen-shot-sm.webp" class="mb-4" alt="">
-          <ul class="text-center text-lg mx-auto my-3 list-none">
-            <li>2 - 5 pages incl. contact form</li>
-            <li>Dynamic or Static</li>
-            <li>Starting at $299</li>
-          </ul>
-          <button
-            @click="toggleModal = !toggleModal"
-            class="button--grey rounded text-lg text-center py-2 w-full"
-          >
-            Schedule free consultation
-          </button>
-        </div>
-        <div class="w-full border-gray-300 bg-gray-800 border rounded mt-4 px-1 pb-1">
-          <h3 class="text-center mt-1 text-gray-300 text-2xl">
-            CMS Website
-          </h3>
-          <img loading="lazy" src="~/assets/blog-screen-shot-sm.webp" alt="">
-          <ul class="text-center mx-auto text-lg my-3 text-gray-300 list-none">
-            <li>5 - 7 pages SEO ready</li>
-            <li>Free 90 day support</li>
-            <li>Starting at $499</li>
-          </ul>
-          <button
-            @click="toggleModal = !toggleModal"
-            class="text-center text-lg rounded py-2 w-full button--green"
-          >
-            Schedule free consultation
-          </button>
-        </div>
-        <div class="w-full mt-4 px-1 pb-1">
-          <Newsletter />
-        </div>
-      </div>
-    </div> -->
     <div class=" container mx-auto mt-1 px-2">
       <div class="flex flex-wrap justify-between lg:justify-center">
         <div class=" w-full md:w-1/2 md:px-1 lg:w-1/3 pb-1">
@@ -127,7 +69,7 @@
               <h3 class="text-center mt-1 text-gray-300 text-2xl">
                 Landing Page
               </h3>
-              <img loading="lazy" src="~/assets/landing-screen-shot.webp" alt="">
+              <img class=" w-full" loading="lazy" src="~/assets/landing-screen-shot.webp" alt="">
               <ul class="text-center text-lg mx-auto my-3 text-gray-300 list-none">
                 <li>Customized just for you</li>
                 <li>Clear & Targeted presentation</li>
@@ -148,7 +90,7 @@
               <h3 class="text-center mt-1 text-gray-900 text-2xl">
                 Starter Website
               </h3>
-              <img loading="lazy" src="~/assets/space-screen-shot.webp" class="mb-4" alt="">
+              <img class="mb-4 w-full" loading="lazy" src="~/assets/space-screen-shot.webp" alt="">
               <ul class="text-center text-gray-900  text-lg mx-auto my-3 list-none">
                 <li>2 - 5 pages incl. contact form</li>
                 <li>Dynamic or Static</li>
@@ -169,7 +111,7 @@
               <h3 class="text-center mt-1 text-gray-300 text-2xl">
                 CMS Website
               </h3>
-              <img loading="lazy" src="~/assets/blog-screen-shot.webp" alt="">
+              <img class=" w-full" loading="lazy" src="~/assets/blog-screen-shot.webp" alt="">
               <ul class="text-center mx-auto text-lg my-3 text-gray-300 list-none">
                 <li>5 - 7 pages SEO ready</li>
                 <li>Free 90 day support</li>
@@ -377,20 +319,6 @@ export default {
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-/* .container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-} */
-
 .masthead {
   display: flex;
   justify-content: center;
