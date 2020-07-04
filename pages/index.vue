@@ -127,7 +127,7 @@
               <h3 class="text-center mt-1 text-gray-300 text-2xl">
                 Landing Page
               </h3>
-              <img loading="lazy" src="~/assets/landing-screen-shot-sm.webp" alt="">
+              <img loading="lazy" src="~/assets/landing-screen-shot.webp" alt="">
               <ul class="text-center text-lg mx-auto my-3 text-gray-300 list-none">
                 <li>Customized just for you</li>
                 <li>Clear & Targeted presentation</li>
@@ -148,7 +148,7 @@
               <h3 class="text-center mt-1 text-gray-900 text-2xl">
                 Starter Website
               </h3>
-              <img loading="lazy" src="~/assets/space-screen-shot-sm.webp" class="mb-4" alt="">
+              <img loading="lazy" src="~/assets/space-screen-shot.webp" class="mb-4" alt="">
               <ul class="text-center text-gray-900  text-lg mx-auto my-3 list-none">
                 <li>2 - 5 pages incl. contact form</li>
                 <li>Dynamic or Static</li>
@@ -169,7 +169,7 @@
               <h3 class="text-center mt-1 text-gray-300 text-2xl">
                 CMS Website
               </h3>
-              <img loading="lazy" src="~/assets/blog-screen-shot-sm.webp" alt="">
+              <img loading="lazy" src="~/assets/blog-screen-shot.webp" alt="">
               <ul class="text-center mx-auto text-lg my-3 text-gray-300 list-none">
                 <li>5 - 7 pages SEO ready</li>
                 <li>Free 90 day support</li>
